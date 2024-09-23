@@ -1,0 +1,105 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(219, 230, 253);
+}
+h1{
+    font-size: 3.2rem;
+    margin: 2rem 0;
+    text-align: center;
+
+}
+
+h2{
+    font-family: serif;
+}
+
+p{
+    margin: 2rem 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 1.6rem;
+    display: inline-block;
+
+
+}
+
+span{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.stories-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card{
+    min-width: 20rem;
+    width: 40vw;
+    padding: 4rem;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0.5rem;
+    color: #15133c;
+}
+
+.card-btn{
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-btn a{
+    color: #4a8fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.card-btn a:last-child{
+    color: red;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+input{
+    padding: 1rem;
+}
+
+
+.pagination-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 0.8rem 2.2rem;
+    border: none;
+    background-color: #15133c;
+    color: #fff;
+    margin: 3rem;
+    cursor: pointer;
+}
+
+
+@media(max-width : 768px){
+    html{
+        font-size: 51%;
+    }
+}
